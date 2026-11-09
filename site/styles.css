@@ -187,3 +187,12 @@ button { font: inherit; color: inherit; }
   .date .m { display: inline; }
   .cell .mini .body { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 }
+
+/* language switch */
+.header-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+.lang-switch { display: flex; gap: 4px; flex: none; margin-top: 6px; }
+.lang-switch .chip { padding: 4px 10px; font-size: 12px; }
+@media (max-width: 520px) {
+  .header-row { flex-direction: column-reverse; }
+  .lang-switch { margin-top: 0; }
+}

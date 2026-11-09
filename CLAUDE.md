@@ -15,3 +15,7 @@ source table. Key facts that are not obvious from the code:
 - HSR's annual event PDF is intentionally not parsed (text layer has no usable month columns).
 - Autopolis's annual PDF URL is discovered from the /ap/ homepage each run; PDF events are only
   used for months whose HTML table is still 調整中.
+- UI strings are bilingual (ja/en) in `site/app.js` (`I18N`, `TITLE_EN`, `LEGEND_EN`, `COURSE_EN`). Event
+  titles stay in Japanese; only scraper-generated structural titles are translated via `TITLE_EN`.
+- Deployed as a GitHub Pages *project* site of sryan471, so it is served at ninja471.com/kyushu-tracks/
+  (the user site's custom domain) — no copy into the sryan471.github.io repo is needed.

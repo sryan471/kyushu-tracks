@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>九州サーキット走行カレンダー</title>
-<meta name="description" content="HSR九州・SPA直入・オートポリスの走行スケジュールをひとつに。フリー走行・イベント・レースを一目で。">
+<meta name="description" content="HSR九州・SPA直入・オートポリスの走行スケジュールをひとつに。フリー走行・イベント・レースを一目で。 / Kyushu track days: HSR Kyushu, SPA Naoiri and Autopolis schedules in one place.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,39 +13,45 @@
 </head>
 <body>
 <header class="site-header">
-  <div class="wrap">
-    <p class="eyebrow">Kyushu Track Days</p>
-    <h1>九州サーキット走行カレンダー</h1>
-    <p class="lede">HSR九州（熊本）・SPA直入（大分）・オートポリス（大分）の走行スケジュールをひとつに。<span class="nowrap">フリー走行・イベント・レースを一目で。</span></p>
+  <div class="wrap header-row">
+    <div>
+      <p class="eyebrow">Kyushu Track Days</p>
+      <h1 data-i18n="title">九州サーキット走行カレンダー</h1>
+      <p class="lede" data-i18n="lede">HSR九州（熊本）・SPA直入（大分）・オートポリス（大分）の走行スケジュールをひとつに。フリー走行・イベント・レースを一目で。</p>
+    </div>
+    <div class="lang-switch" id="lang-switch" role="group" aria-label="Language">
+      <button class="chip" data-lang="ja">日本語</button>
+      <button class="chip" data-lang="en">English</button>
+    </div>
   </div>
 </header>
 
-<nav class="controls" id="controls" aria-label="フィルター">
+<nav class="controls" id="controls" aria-label="Filters">
   <div class="wrap">
     <div class="row">
-      <div class="group" id="venue-filter" role="group" aria-label="サーキット"></div>
-      <div class="group" id="kind-filter" role="group" aria-label="種別"></div>
+      <div class="group" id="venue-filter" role="group"></div>
+      <div class="group" id="kind-filter" role="group"></div>
     </div>
     <div class="row">
-      <div class="group" id="vehicle-filter" role="group" aria-label="車種">
-        <button class="chip" data-vehicle="all">すべて</button>
-        <button class="chip" data-vehicle="bike">2輪</button>
-        <button class="chip" data-vehicle="car">4輪</button>
+      <div class="group" id="vehicle-filter" role="group">
+        <button class="chip" data-vehicle="all" data-i18n="all">すべて</button>
+        <button class="chip" data-vehicle="bike" data-i18n="bike">2輪</button>
+        <button class="chip" data-vehicle="car" data-i18n="car">4輪</button>
       </div>
-      <div class="group" id="view-switch" role="group" aria-label="表示">
-        <button class="chip" data-view="list">リスト</button>
-        <button class="chip" data-view="month">月</button>
+      <div class="group" id="view-switch" role="group">
+        <button class="chip" data-view="list" data-i18n="list">リスト</button>
+        <button class="chip" data-view="month" data-i18n="month">月</button>
       </div>
       <div class="group nav">
-        <button class="chip icon" id="prev-month" aria-label="前の月">‹</button>
-        <button class="chip" id="today-btn">今日</button>
+        <button class="chip icon" id="prev-month" aria-label="previous month">‹</button>
+        <button class="chip" id="today-btn" data-i18n="today">今日</button>
         <span class="month-label" id="month-label"></span>
-        <button class="chip icon" id="next-month" aria-label="次の月">›</button>
+        <button class="chip icon" id="next-month" aria-label="next month">›</button>
       </div>
-      <input class="search" id="search" type="search" placeholder="検索（例: S3, 耐久, 走行会）" aria-label="検索">
+      <input class="search" id="search" type="search" data-i18n-placeholder="searchPh" placeholder="検索（例: S3, 耐久, 走行会）">
       <details class="courses" id="course-details">
-        <summary class="chip">コース</summary>
-        <div class="group" id="course-filter" role="group" aria-label="コース"></div>
+        <summary class="chip" data-i18n="courses">コース</summary>
+        <div class="group" id="course-filter" role="group"></div>
       </details>
     </div>
   </div>
@@ -57,11 +63,11 @@
 
 <section class="wrap legend-section">
   <details class="legend" id="legend">
-    <summary>凡例・クラス区分</summary>
+    <summary data-i18n="legend">凡例・クラス区分</summary>
     <div class="legend-body">
       <div class="legend-kinds" id="legend-kinds"></div>
       <div class="legend-classes" id="legend-classes"></div>
-      <p class="muted small">クラス区分は各サーキットの公式案内をもとにしたもので、変更されることがあります。走行前に必ず公式サイトで確認してください。</p>
+      <p class="muted small" data-i18n="legendNote">クラス区分は各サーキットの公式案内をもとにしたもので、変更されることがあります。走行前に必ず公式サイトで確認してください。</p>
     </div>
   </details>
 </section>
@@ -70,7 +76,7 @@
   <div class="wrap">
     <div id="sources" class="sources"></div>
     <p class="muted small" id="generated"></p>
-    <p class="muted small">このサイトは非公式のまとめです。日程・走行枠・料金は予告なく変更されます。参加前に各サーキットの公式サイトで必ずご確認ください。</p>
+    <p class="muted small" data-i18n="disclaimer">このサイトは非公式のまとめです。日程・走行枠・料金は予告なく変更されます。参加前に各サーキットの公式サイトで必ずご確認ください。</p>
   </div>
 </footer>
 
