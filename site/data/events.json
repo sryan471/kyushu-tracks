@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T09:45:58+09:00",
+ "generated_at": "2026-11-09T09:57:59+09:00",
  "today": "2026-11-09",
  "venues": {
   "hsr": {
@@ -3573,7 +3573,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 9,
+   "remain": 8,
    "price": 3300,
    "source": "ms-event"
   },
