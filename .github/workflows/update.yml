@@ -1,0 +1,50 @@
+name: Update schedule and deploy
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 06:00 JST daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r scraper/requirements.txt
+      - name: Scrape the three circuits
+        run: python scraper/build.py
+      - name: Commit refreshed data
+        run: |
+          git config user.name "schedule-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/data/events.json
+          git diff --cached --quiet || git commit -m "data: refresh schedules $(date -u +%Y-%m-%d)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

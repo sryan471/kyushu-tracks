@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>九州サーキット走行カレンダー</title>
+<meta name="description" content="HSR九州・SPA直入・オートポリスの走行スケジュールをひとつに。フリー走行・イベント・レースを一目で。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%2300a8ff' stroke-width='4'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <p class="eyebrow">Kyushu Track Days</p>
+    <h1>九州サーキット走行カレンダー</h1>
+    <p class="lede">HSR九州（熊本）・SPA直入（大分）・オートポリス（大分）の走行スケジュールをひとつに。<span class="nowrap">フリー走行・イベント・レースを一目で。</span></p>
+  </div>
+</header>
+
+<nav class="controls" id="controls" aria-label="フィルター">
+  <div class="wrap">
+    <div class="row">
+      <div class="group" id="venue-filter" role="group" aria-label="サーキット"></div>
+      <div class="group" id="kind-filter" role="group" aria-label="種別"></div>
+    </div>
+    <div class="row">
+      <div class="group" id="vehicle-filter" role="group" aria-label="車種">
+        <button class="chip" data-vehicle="all">すべて</button>
+        <button class="chip" data-vehicle="bike">2輪</button>
+        <button class="chip" data-vehicle="car">4輪</button>
+      </div>
+      <div class="group" id="view-switch" role="group" aria-label="表示">
+        <button class="chip" data-view="list">リスト</button>
+        <button class="chip" data-view="month">月</button>
+      </div>
+      <div class="group nav">
+        <button class="chip icon" id="prev-month" aria-label="前の月">‹</button>
+        <button class="chip" id="today-btn">今日</button>
+        <span class="month-label" id="month-label"></span>
+        <button class="chip icon" id="next-month" aria-label="次の月">›</button>
+      </div>
+      <input class="search" id="search" type="search" placeholder="検索（例: S3, 耐久, 走行会）" aria-label="検索">
+      <details class="courses" id="course-details">
+        <summary class="chip">コース</summary>
+        <div class="group" id="course-filter" role="group" aria-label="コース"></div>
+      </details>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap" id="main">
+  <section id="view" class="view" aria-live="polite"></section>
+</main>
+
+<section class="wrap legend-section">
+  <details class="legend" id="legend">
+    <summary>凡例・クラス区分</summary>
+    <div class="legend-body">
+      <div class="legend-kinds" id="legend-kinds"></div>
+      <div class="legend-classes" id="legend-classes"></div>
+      <p class="muted small">クラス区分は各サーキットの公式案内をもとにしたもので、変更されることがあります。走行前に必ず公式サイトで確認してください。</p>
+    </div>
+  </details>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div id="sources" class="sources"></div>
+    <p class="muted small" id="generated"></p>
+    <p class="muted small">このサイトは非公式のまとめです。日程・走行枠・料金は予告なく変更されます。参加前に各サーキットの公式サイトで必ずご確認ください。</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
