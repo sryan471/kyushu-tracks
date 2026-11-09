@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T09:24:43+09:00",
+ "generated_at": "2026-11-09T09:43:05+09:00",
  "today": "2026-11-09",
  "venues": {
   "hsr": {
@@ -273,14 +273,14 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "57ea9265d0f4",
+   "id": "b7f1617e6e5d",
    "venue": "ap",
    "course": "racing",
    "date": "2026-04-05",
-   "title": "ゴールドカップレース 第1戦",
+   "title": "ゴールドカップレース第1戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500 第1戦 / VITA 第1戦 / 併催レース：TGR 86/BRZ cup 第1戦 / TGR Yaris cup第1戦/第2戦 / 併催イベント：AUTOPOLIS 86/BRZ STYLE 2026",
+   "note": "開催レース：スーパーFJ/FJ1500第1戦 /VITA第1戦 / 併催レース：TGR86/BRZcup第1戦 /TGRYariscup第1戦/第2戦 / 併催イベント：AUTOPOLIS86/BRZSTYLE2026",
    "source": "pdf",
    "approx": true
   },
@@ -342,15 +342,15 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "ce80c039ba96",
+   "id": "35f2559225dc",
    "venue": "ap",
    "course": "racing",
    "date": "2026-04-25",
-   "title": "全日本 SUPER FORMULA 選手権 第3戦",
+   "title": "全日本 SUPERFORMULA選手権 第3戦",
    "kind": "race",
    "vehicle": "car",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "併催レース：SUPER FORMULA LIGHTS / N-ONE OWNER'S CUP / 併催イベント：ゆるフェス2026(仮称)26日",
+   "note": "併催レース：SUPERFORMULALIGHTS/N-ONEOWNER'SCUP / 併催イベント：ゆるフェス2026(仮称)26日",
    "source": "pdf",
    "approx": true
   },
@@ -366,15 +366,15 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "99eb68a6d76f",
+   "id": "6378628dbd69",
    "venue": "ap",
    "course": "racing",
    "date": "2026-05-10",
-   "title": "POLISPAロードレース選手権 第1戦",
+   "title": "POLISPAロードレース選手権第1戦",
    "kind": "race",
    "vehicle": "bike",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催クラス：JSB1000 / ST1000 / ST600 / JP250 / 併催レース：Ninja Team Green Cup / ONE&TWOフェスティバル 春の大会",
+   "note": "開催クラス：JSB1000/ST1000/ST600/JP250 / 併催レース：NinjaTeamGreenCup/ONE&TWOフェスティバル 春の大会",
    "source": "pdf",
    "approx": true
   },
@@ -412,14 +412,14 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "e4d096116ea9",
+   "id": "766f5e3765ff",
    "venue": "ap",
    "course": "racing",
    "date": "2026-05-30",
-   "title": "SUPER BIKE RACE in KYUSHU 第3戦",
+   "title": "SUPERBIKERACEinKYUSHU 第3戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催クラス：JSB1000 / ST1000 / ST600 / J-GP3 / 併催レース：MFJ CUP JP250選手権31日",
+   "note": "開催クラス：JSB1000/ST1000/ST600/J-GP3 / 併催レース：MFJCUPJP250選手権31日",
    "source": "pdf",
    "approx": true
   },
@@ -468,14 +468,14 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "1da5e878e8ca",
+   "id": "d20364d6961d",
    "venue": "ap",
    "course": "racing",
    "date": "2026-06-14",
-   "title": "ゴールドカップレース 第2戦",
+   "title": "ゴールドカップレース第2戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500 第2戦 / VITA 第2戦 / AP86/BRZ 第1戦 / BBS1500 1時間耐久レース / 併催レース：サーキットトライアル",
+   "note": "開催レース：スーパーFJ/FJ1500第2戦 /VITA第2戦 /AP86/BRZ第1戦 /BBS15001時間耐久レース / 併催レース：サーキットトライアル",
    "source": "pdf",
    "approx": true
   },
@@ -503,15 +503,15 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "f9331fb9dae2",
+   "id": "116e63350071",
    "venue": "ap",
    "course": "racing",
    "date": "2026-07-25",
-   "title": "スーパー耐久シリーズ 第5戦",
+   "title": "スーパー耐久シリーズ第5戦",
    "kind": "race",
    "date_end": "2026-07-26",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "併催レース：TGR Yaris Cup 第3戦",
+   "note": "併催レース：TGRYarisCup第3戦",
    "source": "pdf",
    "approx": true
   },
@@ -571,14 +571,14 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "309981cafa18",
+   "id": "4e393a8d4447",
    "venue": "ap",
    "course": "racing",
    "date": "2026-08-09",
-   "title": "ゴールドカップレース 第3戦",
+   "title": "ゴールドカップレース第3戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500 第3戦 / VITA 第3戦 / AP86/BRZ 第2戦 / BBS1500 第1戦 / 併催レース：Formula Beat",
+   "note": "開催レース：スーパーFJ/FJ1500第3戦 /VITA第3戦 /AP86/BRZ第2戦 /BBS1500第1戦 / 併催レース：FormulaBeat",
    "source": "pdf",
    "approx": true
   },
@@ -639,14 +639,14 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "ca1fbf661b90",
+   "id": "50f4516ed5af",
    "venue": "ap",
    "course": "racing",
    "date": "2026-09-13",
-   "title": "ゴールドカップレース 第4戦",
+   "title": "ゴールドカップレース第4戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500 第4戦 / VITA 第4戦 / AP86/BRZ 第3戦 / BBS1500 第2戦 / 併催レース：ロードスター・パーティーレースⅢ ジャパンツアーシリーズ",
+   "note": "開催レース：スーパーFJ/FJ1500第4戦 /VITA第4戦 /AP86/BRZ第3戦 /BBS1500第2戦 / 併催レース：ロードスター・パーティーレースⅢ ジャパンツアーシリーズ",
    "source": "pdf",
    "approx": true
   },
@@ -759,11 +759,11 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "95cfa5d23326",
+   "id": "c5252073c8cf",
    "venue": "ap",
    "course": "racing",
    "date": "2026-09-26",
-   "title": "天空 de HANABI",
+   "title": "天空 deHANABI",
    "kind": "event",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
    "source": "pdf",
@@ -845,15 +845,15 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "79948df5be6e",
+   "id": "5f6906be9153",
    "venue": "ap",
    "course": "racing",
    "date": "2026-10-04",
-   "title": "POLISPAロードレース選手権 第4戦",
+   "title": "POLISPAロードレース選手権第4戦",
    "kind": "race",
    "vehicle": "bike",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催クラス：JSB1000 / ST1000 / ST600 / JP250 / 併催レース：ONE&TWOフェスティバル 秋の大会",
+   "note": "開催クラス：JSB1000/ST1000/ST600/JP250 / 併催レース：ONE&TWOフェスティバル 秋の大会",
    "source": "pdf",
    "approx": true
   },
@@ -982,16 +982,14 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "7f05702912c9",
+   "id": "ee337cc8a71d",
    "venue": "ap",
    "course": "racing",
    "date": "2026-10-17",
-   "title": "SUPER GT Round7",
+   "title": "SUPERGTRound7",
    "kind": "race",
-   "date_end": "2026-10-18",
-   "vehicle": "car",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "併催レース：FIA-F4",
+   "note": "併催レース：FIA-F418日",
    "source": "pdf",
    "approx": true
   },
@@ -1069,11 +1067,11 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "ff44c33df42f",
+   "id": "1bb6435f2dfe",
    "venue": "ap",
    "course": "racing",
    "date": "2026-10-24",
-   "title": "D1 GRAND PRIX Series Round7/8",
+   "title": "D1GRANDPRIXSeriesRound7/8",
    "kind": "race",
    "date_end": "2026-10-25",
    "vehicle": "car",
