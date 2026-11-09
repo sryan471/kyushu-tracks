@@ -101,7 +101,7 @@
   ];
 
   const state = {
-    lang: (navigator.language || "ja").toLowerCase().startsWith("ja") ? "ja" : "en",
+    lang: "ja", // Japanese by default regardless of browser language; the toggle is remembered per browser
     venues: new Set(VENUE_ORDER),
     courses: null, // Set of "venue:course"; null = all
     kinds: new Set(["free", "event", "race", "school", "other"]),
