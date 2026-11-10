@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-09T09:57:59+09:00",
- "today": "2026-11-09",
+ "generated_at": "2026-11-10T12:12:32+09:00",
+ "today": "2026-11-10",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -187,7 +187,7 @@
    "label": "コーススケジュール",
    "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/",
    "ok": true,
-   "count": 127,
+   "count": 122,
    "note": "11月(2026-10-29更新)、12月(調整中)、1月(調整中)"
   },
   {
@@ -4657,7 +4657,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 7,
+   "remain": 6,
    "price": 3300,
    "source": "ms-event"
   },
@@ -7221,7 +7221,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 10,
+   "remain": 9,
    "price": 3300,
    "source": "ms-event"
   },
@@ -7280,6 +7280,7 @@
    "kind": "free",
    "start": "10:00",
    "end": "17:00",
+   "url": "https://autopolis.jp/ap/wp-content/uploads/2026/11/2026-gc6-time-.pdf",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
@@ -7328,7 +7329,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 9,
+   "remain": 8,
    "price": 3300,
    "source": "ms-event"
   },
