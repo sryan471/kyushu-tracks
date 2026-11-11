@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-10T12:12:32+09:00",
- "today": "2026-11-10",
+ "generated_at": "2026-11-11T10:02:05+09:00",
+ "today": "2026-11-11",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -3764,7 +3764,7 @@
    "end": "13:30",
    "cls": "4",
    "vehicle": "car",
-   "remain": "◯",
+   "remain": 8,
    "price": 4950,
    "source": "ms-event"
   },
@@ -4657,7 +4657,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 6,
+   "remain": 5,
    "price": 3300,
    "source": "ms-event"
   },
