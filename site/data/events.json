@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-11T10:02:05+09:00",
- "today": "2026-11-11",
+ "generated_at": "2026-11-12T11:08:39+09:00",
+ "today": "2026-11-12",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -205,7 +205,7 @@
    "label": "4輪走行会一覧",
    "url": "https://autopolis.jp/ap/entry/car/",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "note": null
   },
   {
@@ -3764,7 +3764,7 @@
    "end": "13:30",
    "cls": "4",
    "vehicle": "car",
-   "remain": 8,
+   "remain": 6,
    "price": 4950,
    "source": "ms-event"
   },
@@ -3804,7 +3804,7 @@
    "start": "13:30",
    "end": "14:00",
    "cls": "R",
-   "remain": "◯",
+   "remain": 9,
    "price": 4950,
    "source": "ms-event"
   },
@@ -3832,7 +3832,7 @@
    "end": "14:30",
    "cls": "4",
    "vehicle": "car",
-   "remain": "◯",
+   "remain": 10,
    "price": 4950,
    "source": "ms-event"
   },
@@ -3872,7 +3872,7 @@
    "start": "14:30",
    "end": "15:00",
    "cls": "R",
-   "remain": "◯",
+   "remain": 8,
    "price": 4950,
    "source": "ms-event"
   },
@@ -3940,7 +3940,7 @@
    "start": "15:30",
    "end": "16:00",
    "cls": "R",
-   "remain": "◯",
+   "remain": 9,
    "price": 4950,
    "source": "ms-event"
   },
