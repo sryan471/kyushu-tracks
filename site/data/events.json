@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-12T11:08:39+09:00",
- "today": "2026-11-12",
+ "generated_at": "2026-11-13T10:42:38+09:00",
+ "today": "2026-11-13",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -187,8 +187,8 @@
    "label": "コーススケジュール",
    "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/",
    "ok": true,
-   "count": 122,
-   "note": "11月(2026-10-29更新)、12月(調整中)、1月(調整中)"
+   "count": 240,
+   "note": "11月(2026-10-29更新)、12月(2026-11-12更新)、1月(調整中)"
   },
   {
    "venue": "ap",
@@ -196,8 +196,8 @@
    "label": "コーススケジュール",
    "url": "https://autopolis.jp/ap/member/sports-run/lakeside-course-schedule/",
    "ok": true,
-   "count": 30,
-   "note": "11月(2026-10-16更新)、12月(調整中)、1月(調整中)"
+   "count": 61,
+   "note": "11月(2026-10-16更新)、12月(2026-11-12更新)、1月(調整中)"
   },
   {
    "venue": "ap",
@@ -205,7 +205,7 @@
    "label": "4輪走行会一覧",
    "url": "https://autopolis.jp/ap/entry/car/",
    "ok": true,
-   "count": 17,
+   "count": 23,
    "note": null
   },
   {
@@ -223,8 +223,8 @@
    "label": "年間スケジュール (PDF)",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
    "ok": true,
-   "count": 15,
-   "note": "PDFから18件抽出、未公開月の15件を採用"
+   "count": 14,
+   "note": "PDFから18件抽出、未公開月の14件を採用"
   }
  ],
  "events": [
@@ -4657,7 +4657,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 5,
+   "remain": 6,
    "price": 3300,
    "source": "ms-event"
   },
@@ -8399,6 +8399,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "28d5bf62541e",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-01",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "45fd6131db5d",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-01",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "017618b62482",
    "venue": "spa",
    "course": "onroad",
@@ -8406,6 +8424,16 @@
    "title": "貸切",
    "kind": "private",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "70089585ab65",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-02",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "db2f8999a9e5",
@@ -8452,6 +8480,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "8d4fcbef60f2",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-02",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "31b59a835de2",
@@ -8530,6 +8570,29 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "fbe91e2c61c8",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-02",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "92db5738d5ff",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-02",
+   "title": "貸切",
+   "kind": "private",
+   "start": "13:00",
+   "end": "16:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "95ecbf5bfe10",
@@ -8734,6 +8797,29 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "dcb4edcfdfe4",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-03",
+   "title": "貸切",
+   "kind": "private",
+   "start": "10:00",
+   "end": "12:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "531fe934b395",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-03",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "8a31f4501332",
    "venue": "spa",
    "course": "onroad",
@@ -8810,6 +8896,29 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "641a6c51bda0",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-03",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "a944ac6329b1",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-03",
+   "title": "貸切",
+   "kind": "private",
+   "start": "13:00",
+   "end": "16:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "f968279455d2",
@@ -8968,17 +9077,6 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "ac58a9dc2e10",
-   "venue": "ap",
-   "course": "racing",
-   "date": "2026-12-04",
-   "title": "エランde 走行会",
-   "kind": "event",
-   "vehicle": "car",
-   "url": "http://www.elan-de.net/sk/",
-   "source": "autopolis.jp/entry"
-  },
-  {
    "id": "732380bb2599",
    "venue": "spa",
    "course": "onroad",
@@ -9023,6 +9121,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "9441bb9daf50",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-04",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "c94222a51823",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-04",
+   "title": "ｴﾗﾝde走行会",
+   "kind": "event",
+   "start": "10:00",
+   "end": "12:00",
+   "url": "http://www.elan-de.net/sk/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "33e4860d3e81",
@@ -9101,6 +9224,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "39b5ea9d1fc4",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-04",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
   },
   {
    "id": "4b3af175b8e8",
@@ -9259,6 +9394,39 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "85baef40f673",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "エイトリアンカップ in オートポリス4th",
+   "kind": "race",
+   "vehicle": "car",
+   "url": "https://8cup-rst.jimdofree.com/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E9%96%8B%E5%82%AC%E6%A1%88%E5%86%85/2026%E5%B9%B4/2026-12-5-%E3%82%A8%E3%82%A4%E3%83%88%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%83%E3%83%97inap-4th/",
+   "source": "autopolis.jp/entry"
+  },
+  {
+   "id": "50467d4e5cb0",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "フィールドシップ走行会",
+   "kind": "event",
+   "vehicle": "car",
+   "url": "https://www.fieldship.jp/event.html",
+   "source": "autopolis.jp/entry"
+  },
+  {
+   "id": "d019b0b1f196",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "第7回みんダラinオートポリス",
+   "kind": "event",
+   "vehicle": "car",
+   "url": "https://minkara.carview.co.jp/calendar/90907/",
+   "source": "autopolis.jp/entry"
+  },
+  {
    "id": "d412a954ffd1",
    "venue": "hsr",
    "course": "dream",
@@ -9317,6 +9485,20 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "88f785fccc93",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "86",
+   "kind": "event",
+   "start": "09:30",
+   "end": "10:00",
+   "vehicle": "car",
+   "url": "https://minkara.carview.co.jp/group/86BRZdara/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "c02cbc963248",
    "venue": "hsr",
    "course": "circuit",
@@ -9343,6 +9525,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "5e98ca245803",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "RTE",
+   "kind": "event",
+   "start": "10:00",
+   "end": "10:30",
+   "url": "https://8cup-rst.jimdofree.com/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E9%96%8B%E5%82%AC%E6%A1%88%E5%86%85/2026%E5%B9%B4/2026-12-5-%E3%82%A8%E3%82%A4%E3%83%88%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%83%E3%83%97inap-4th/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "828bde02b2c1",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-05",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "d0c2297ec894",
@@ -9481,6 +9688,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "fd524d04673a",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "c314dcbf85d5",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "FS",
+   "kind": "event",
+   "start": "13:00",
+   "end": "13:30",
+   "url": "https://www.fieldship.jp/event.html",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "c0e4e90a985d",
@@ -9729,6 +9961,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "96dd6307dc26",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "CL 講習日",
+   "kind": "school",
+   "start": "16:30",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/member/introduction/#license",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "0ba84507654b",
    "venue": "hsr",
    "course": "circuit",
@@ -9754,30 +9999,6 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "4976d9bd6f1e",
-   "venue": "ap",
-   "course": "racing",
-   "date": "2026-12-06",
-   "title": "IMPACT走行会",
-   "kind": "event",
-   "vehicle": "car",
-   "url": "http://www.impact-r.net/",
-   "note": "主催: 巌流塾",
-   "source": "autopolis.jp/entry"
-  },
-  {
-   "id": "7e842773dcc5",
-   "venue": "ap",
-   "course": "lakeside",
-   "date": "2026-12-06",
-   "title": "走り納めダヨ!!愉快な仲間達ドリフト走行会",
-   "kind": "event",
-   "vehicle": "car",
-   "url": "http://garagewaizu-nce-buttobi.net/",
-   "note": "主催: ガレージわいず",
-   "source": "autopolis.jp/entry"
   },
   {
    "id": "abe3b9aa0d4b",
@@ -9824,6 +10045,46 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "7acf9d6a530f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-06",
+   "title": "IMPACT走行会",
+   "kind": "event",
+   "start": "09:00",
+   "end": "16:30",
+   "url": "http://www.impact-r.net/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "3fa8bb510972",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-06",
+   "title": "愉快な仲間達ドリフト走行会",
+   "kind": "event",
+   "start": "10:00",
+   "end": "17:00",
+   "vehicle": "car",
+   "url": "http://garagewaizu-nce-buttobi.net/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "69926a17d4c4",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-06",
+   "title": "CL 講習日",
+   "kind": "school",
+   "start": "16:30",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/member/introduction/#license",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "44fa0935a6ab",
    "venue": "spa",
    "course": "onroad",
@@ -9833,6 +10094,159 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "0c58c5af73f1",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "貸切",
+   "kind": "private",
+   "start": "09:30",
+   "end": "10:30",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "bf625e3f6bd3",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-07",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "6849325e1f47",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "4TN",
+   "kind": "free",
+   "start": "10:30",
+   "end": "11:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "f159466193e1",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "貸切",
+   "kind": "private",
+   "start": "11:00",
+   "end": "12:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "33bd7fc830c0",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "9be0430322a4",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "貸切",
+   "kind": "private",
+   "start": "13:00",
+   "end": "14:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "11035c43cde8",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "4F",
+   "kind": "free",
+   "start": "14:00",
+   "end": "14:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "27b8ed12fba7",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "4TN",
+   "kind": "free",
+   "start": "14:30",
+   "end": "15:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "0546f8628a0a",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "4F",
+   "kind": "free",
+   "start": "15:00",
+   "end": "15:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "521505e56367",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "4TN",
+   "kind": "free",
+   "start": "15:30",
+   "end": "16:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "8b2014442935",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-07",
+   "title": "PIT予約 CL 講習日",
+   "kind": "school",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "288ab4ce0756",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-08",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "9d8731cd320c",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-08",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "71ed9858b29b",
    "venue": "spa",
    "course": "onroad",
@@ -9840,6 +10254,24 @@
    "title": "定休日",
    "kind": "closed",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "0967498a3b01",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-09",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "a742724e3a83",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-09",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
   },
   {
    "id": "747c4479a983",
@@ -10174,6 +10606,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "874788a31354",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-10",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "3a39a9593fa4",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-10",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "898c21e2dc49",
    "venue": "spa",
    "course": "onroad",
@@ -10454,16 +10904,6 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "687b3ba74349",
-   "venue": "ap",
-   "course": "racing",
-   "date": "2026-12-11",
-   "title": "走行会",
-   "kind": "event",
-   "vehicle": "car",
-   "source": "autopolis.jp/entry"
-  },
-  {
    "id": "489dad117f7a",
    "venue": "hsr",
    "course": "circuit",
@@ -10517,6 +10957,29 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "6a13ba4d0af1",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-11",
+   "title": "ヨーロピアンバージョン",
+   "kind": "event",
+   "start": "10:00",
+   "end": "12:00",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "90f9e614abd9",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-11",
+   "title": "貸切",
+   "kind": "private",
+   "start": "10:00",
+   "end": "17:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "131b6faa1e82",
@@ -10595,6 +11058,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "565253f8964a",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-11",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
   },
   {
    "id": "95058d1a0f6a",
@@ -10761,8 +11236,8 @@
    "kind": "event",
    "vehicle": "car",
    "url": "https://autopolis.jp/ap/entry/event/rev-speed/",
-   "note": "主催: オートポリス",
-   "source": "autopolis.jp/entry"
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "b789b8eb4186",
@@ -10828,6 +11303,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "0d448056228d",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-12",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "ec03211582bb",
@@ -11103,6 +11590,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "8d4ae4b88171",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "4F",
+   "kind": "free",
+   "start": "09:00",
+   "end": "09:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "e376439091ad",
    "venue": "spa",
    "course": "onroad",
@@ -11116,6 +11616,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "b5106d277a24",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "4TN",
+   "kind": "free",
+   "start": "09:30",
+   "end": "10:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "ceb4fe43d969",
    "venue": "spa",
    "course": "onroad",
@@ -11127,6 +11640,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "39c33c3f4331",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "4F",
+   "kind": "free",
+   "start": "10:00",
+   "end": "10:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "7b03ed14e602",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-13",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "e520848e9087",
@@ -11155,6 +11693,18 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "c4d2ec4a5c54",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "ｱﾑｸ",
+   "kind": "event",
+   "start": "10:30",
+   "end": "11:00",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "5400dd1db065",
    "venue": "spa",
    "course": "onroad",
@@ -11166,6 +11716,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "548ef1912642",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "4TN",
+   "kind": "free",
+   "start": "11:00",
+   "end": "11:30",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "5423ea106258",
@@ -11207,6 +11770,31 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "0decb595c5fc",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "f65df6371fee",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "ﾂｧｵﾊﾞ",
+   "kind": "event",
+   "start": "13:00",
+   "end": "14:00",
+   "url": "https://zauberkraft-isa.com/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "db3b95cc21b4",
    "venue": "spa",
    "course": "onroad",
@@ -11216,6 +11804,19 @@
    "start": "13:00",
    "end": "15:00",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "f6811397d0c9",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "4F",
+   "kind": "free",
+   "start": "14:00",
+   "end": "14:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "bd3d57e6bf4d",
@@ -11244,6 +11845,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "879fc551f92b",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "4TN",
+   "kind": "free",
+   "start": "15:30",
+   "end": "16:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "3d5569b5519d",
    "venue": "spa",
    "course": "onroad",
@@ -11255,6 +11869,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "ede2d888e78f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-13",
+   "title": "PIT予約 CL 講習日",
+   "kind": "school",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "cfa16578c532",
@@ -11296,6 +11923,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "0d02945685d5",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-14",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "390d5c7de9fc",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-14",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "34debbd98977",
    "venue": "spa",
    "course": "onroad",
@@ -11305,6 +11950,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "4dadf84b361c",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-15",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "9818ad3b6694",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-15",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "eb26e2c849e6",
    "venue": "spa",
    "course": "onroad",
@@ -11312,6 +11975,16 @@
    "title": "定休日",
    "kind": "closed",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "6d7637153d6d",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-16",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "6866e96e092a",
@@ -11367,6 +12040,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "f57e0917ff90",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-16",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "b8f9a438c164",
@@ -11603,6 +12288,16 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "1e5b6cb9b451",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-17",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "6e3dfb915325",
    "venue": "spa",
    "course": "onroad",
@@ -11647,6 +12342,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "7c53b542cc19",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-17",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "dc1f4b8b3791",
@@ -11883,6 +12590,16 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "5aa012f310e5",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-18",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "4de9312a2c4e",
    "venue": "hsr",
    "course": "dream",
@@ -11938,6 +12655,18 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "e74f359a34f4",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-18",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "00387dbb5fa1",
@@ -12205,6 +12934,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "6dc04ef8e628",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "09:00",
+   "end": "09:30",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "19a1905b8a78",
    "venue": "hsr",
    "course": "circuit",
@@ -12233,6 +12975,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "000bd725bfcb",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "09:30",
+   "end": "10:00",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "bc093b020e6c",
    "venue": "hsr",
    "course": "circuit",
@@ -12259,6 +13014,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "c61d51f8b933",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4F",
+   "kind": "free",
+   "start": "10:00",
+   "end": "10:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "3306cbcfab07",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-19",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
   },
   {
    "id": "a3a292bac929",
@@ -12302,6 +13082,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "56e31a0d614f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "10:30",
+   "end": "11:00",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "9b0c063133f2",
    "venue": "hsr",
    "course": "circuit",
@@ -12328,6 +13121,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "92264def1597",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "11:00",
+   "end": "11:30",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "60425b5c5008",
@@ -12371,6 +13177,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "0b0cb8626cca",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4F",
+   "kind": "free",
+   "start": "11:30",
+   "end": "12:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "dd391b67120a",
    "venue": "hsr",
    "course": "circuit",
@@ -12397,6 +13216,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "25f5f6af60fa",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "68e79f90fe4d",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "13:00",
+   "end": "13:30",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "38da8a3dcedd",
@@ -12440,6 +13284,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "206186b45a39",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "13:30",
+   "end": "14:00",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "971c128e24a6",
    "venue": "hsr",
    "course": "circuit",
@@ -12466,6 +13323,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "1025004739f0",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4F",
+   "kind": "free",
+   "start": "14:00",
+   "end": "14:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "9154eca11ed1",
@@ -12509,6 +13379,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "c19962cfe935",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "14:30",
+   "end": "15:00",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "724b1c2aa20e",
    "venue": "hsr",
    "course": "circuit",
@@ -12535,6 +13418,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "d139e3a022ac",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "15:00",
+   "end": "15:30",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "eafbc100ce8c",
@@ -12578,6 +13474,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "01a9c3383047",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "4F",
+   "kind": "free",
+   "start": "15:30",
+   "end": "16:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "bbf3cd68ab3b",
    "venue": "hsr",
    "course": "circuit",
@@ -12604,6 +13513,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "ae4da1751250",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-19",
+   "title": "PIT予約 CL 講習日",
+   "kind": "school",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "9f0977318ec9",
@@ -12675,15 +13597,24 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "c42fc7bd15db",
+   "id": "7a1632f0d458",
    "venue": "ap",
    "course": "racing",
    "date": "2026-12-20",
-   "title": "年間表彰式",
-   "kind": "event",
-   "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "source": "pdf",
-   "approx": true
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "5e99785d0780",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-20",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "7b21f57a3c22",
@@ -12716,6 +13647,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "d087d0c65126",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-20",
+   "title": "CL 講習日",
+   "kind": "school",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/member/introduction/#license",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "db332e012d20",
    "venue": "spa",
    "course": "onroad",
@@ -12723,6 +13667,191 @@
    "title": "定休日",
    "kind": "closed",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "71410614b63b",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4F",
+   "kind": "free",
+   "start": "10:00",
+   "end": "10:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "62e787bfe9ca",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-21",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "d6be457e2d46",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "10:30",
+   "end": "11:00",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "66877729886b",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "11:00",
+   "end": "11:30",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "e351c1a7ec9d",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4F",
+   "kind": "free",
+   "start": "11:30",
+   "end": "12:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "9c210eb85a32",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "ece61b6b4b55",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "13:00",
+   "end": "13:30",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "98d3a0589fd3",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "13:30",
+   "end": "14:00",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "aea817b8a734",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4F",
+   "kind": "free",
+   "start": "14:00",
+   "end": "14:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "bbe08d2d3f93",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "14:30",
+   "end": "15:00",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "2a90a00256f2",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "15:00",
+   "end": "15:30",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "03711e5314d7",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "4F",
+   "kind": "free",
+   "start": "15:30",
+   "end": "16:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "bccf1c6cee5f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-21",
+   "title": "PIT予約",
+   "kind": "event",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "d1001485e407",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-22",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "8ed1f355d09e",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-22",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
   },
   {
    "id": "0335c1bd533a",
@@ -12780,6 +13909,31 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "0889a775c2a3",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "KSP",
+   "kind": "free",
+   "start": "10:00",
+   "end": "10:30",
+   "cls": "KSP",
+   "vehicle": "kart",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "9cb534ef472e",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-23",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "67394c5bc67c",
    "venue": "spa",
    "course": "onroad",
@@ -12806,6 +13960,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "d66e9597e7fe",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "4TN",
+   "kind": "free",
+   "start": "10:30",
+   "end": "11:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "9d60af3b63f5",
    "venue": "spa",
    "course": "onroad",
@@ -12817,6 +13984,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "596e1e5d004c",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "4F",
+   "kind": "free",
+   "start": "11:00",
+   "end": "11:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "eee4ef1ad665",
@@ -12845,6 +14025,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "62d6cb642007",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "KSP",
+   "kind": "free",
+   "start": "11:30",
+   "end": "12:00",
+   "cls": "KSP",
+   "vehicle": "kart",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "4a0ec7d3977f",
    "venue": "spa",
    "course": "onroad",
@@ -12856,6 +14049,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "2df30f48074a",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "1454ad738c05",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "4TN",
+   "kind": "free",
+   "start": "13:00",
+   "end": "13:30",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "30f88168479f",
@@ -12884,6 +14102,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "f6ebddb66656",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "4F",
+   "kind": "free",
+   "start": "13:30",
+   "end": "14:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "10ab8bfc87ee",
    "venue": "spa",
    "course": "onroad",
@@ -12895,6 +14126,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "86e1584b79c8",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "KSP",
+   "kind": "free",
+   "start": "14:00",
+   "end": "14:30",
+   "cls": "KSP",
+   "vehicle": "kart",
+   "source": "autopolis.jp"
   },
   {
    "id": "e5c5ffb6ca28",
@@ -12923,6 +14167,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "75385993138f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "4TN",
+   "kind": "free",
+   "start": "14:30",
+   "end": "15:00",
+   "cls": "4TN",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "cd1a5034c708",
    "venue": "spa",
    "course": "onroad",
@@ -12934,6 +14191,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "f5ae6e4d4d6a",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "4F",
+   "kind": "free",
+   "start": "15:00",
+   "end": "15:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "1e021bde3779",
@@ -12962,6 +14232,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "101dcb6475f7",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "KSP",
+   "kind": "free",
+   "start": "15:30",
+   "end": "16:00",
+   "cls": "KSP",
+   "vehicle": "kart",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "40c74d2bb878",
    "venue": "spa",
    "course": "onroad",
@@ -12973,6 +14256,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "12df8f3c6d10",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-23",
+   "title": "PIT予約",
+   "kind": "event",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "9d7086eec3f6",
@@ -13060,6 +14356,31 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "1cdc78e6683d",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4F",
+   "kind": "free",
+   "start": "10:00",
+   "end": "10:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "b5f7a91f0874",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-24",
+   "title": "貸切予約 受付中（7日前まで）",
+   "kind": "open",
+   "start": "10:00",
+   "end": "17:00",
+   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "dbf8315b44fe",
    "venue": "spa",
    "course": "onroad",
@@ -13086,6 +14407,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "f8b74ee8499f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "10:30",
+   "end": "11:00",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "3023a82bdfc8",
    "venue": "spa",
    "course": "onroad",
@@ -13097,6 +14431,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "9352066e29fa",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "11:00",
+   "end": "11:30",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "ceb2bf771205",
@@ -13125,6 +14472,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "d22df93789fb",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4F",
+   "kind": "free",
+   "start": "11:30",
+   "end": "12:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "964329f698a0",
    "venue": "spa",
    "course": "onroad",
@@ -13136,6 +14496,31 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "2426f7d50a89",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "体験走行",
+   "kind": "trial",
+   "start": "12:00",
+   "end": "12:30",
+   "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/entry/trial-run/",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "7299a33f6765",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "13:00",
+   "end": "13:30",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "25a4282507e8",
@@ -13164,6 +14549,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "99286b0dfcd2",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "13:30",
+   "end": "14:00",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "22e757eb9ee5",
    "venue": "spa",
    "course": "onroad",
@@ -13175,6 +14573,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "500b58fd2aac",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4F",
+   "kind": "free",
+   "start": "14:00",
+   "end": "14:30",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "0eeb08078f4e",
@@ -13203,6 +14614,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "39188af90226",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4TN-A",
+   "kind": "free",
+   "start": "14:30",
+   "end": "15:00",
+   "cls": "4TN-A",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "18bed5841cc9",
    "venue": "spa",
    "course": "onroad",
@@ -13214,6 +14638,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "2a37cd7ccdb1",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4TN-B",
+   "kind": "free",
+   "start": "15:00",
+   "end": "15:30",
+   "cls": "4TN-B",
+   "vehicle": "car",
+   "source": "autopolis.jp"
   },
   {
    "id": "adecc0c8c752",
@@ -13242,6 +14679,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "060426b7c8e5",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "4F",
+   "kind": "free",
+   "start": "15:30",
+   "end": "16:00",
+   "cls": "4F",
+   "vehicle": "car",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "9026a57f99f4",
    "venue": "spa",
    "course": "onroad",
@@ -13253,6 +14703,19 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "64c4d22c3ebd",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-24",
+   "title": "PIT予約",
+   "kind": "event",
+   "start": "16:00",
+   "end": "17:00",
+   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
   },
   {
    "id": "ab5112943beb",
@@ -13294,6 +14757,26 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "5ac9e4d847b5",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-25",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "b8d70148d292",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-25",
+   "title": "コースメンテナンス",
+   "kind": "closed",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "553406fc6196",
    "venue": "spa",
    "course": "onroad",
@@ -13301,6 +14784,24 @@
    "title": "コースクローズ",
    "kind": "closed",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "b6f06e15d785",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-26",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "2146452822cb",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-26",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
   },
   {
    "id": "0c14146312e5",
@@ -13312,6 +14813,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "cc8001012b08",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-27",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "3a2a5d8bacc8",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-27",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "f5b14ad2174d",
    "venue": "spa",
    "course": "onroad",
@@ -13319,6 +14838,24 @@
    "title": "年末休業",
    "kind": "closed",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "fa87698a710f",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-28",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "99fe23c45446",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-28",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
   },
   {
    "id": "a2100ea8f060",
@@ -13330,6 +14867,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "70fe0e7ff45c",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-29",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "59a9873d2c5f",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-29",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "d3ce062935f3",
    "venue": "spa",
    "course": "onroad",
@@ -13339,6 +14894,24 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "d6e482f79938",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-30",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "312008c12652",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-30",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "fae38f33af10",
    "venue": "spa",
    "course": "onroad",
@@ -13346,6 +14919,24 @@
    "title": "年末休業",
    "kind": "closed",
    "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "3c716de38401",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-31",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
+  },
+  {
+   "id": "0362769ca487",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-31",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp"
   },
   {
    "id": "0750bf3cdd8a",
@@ -15558,6 +17149,18 @@
    "kind": "school",
    "vehicle": "car",
    "source": "ms-event"
+  },
+  {
+   "id": "d09c21841b0d",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2027-01-31",
+   "title": "スーパーラップチャレンジ",
+   "kind": "event",
+   "vehicle": "car",
+   "url": "https://autopolis.jp/ap/wp-content/uploads/2026/11/2027_super_lap_an_fin.pdf",
+   "note": "主催: オートポリス",
+   "source": "autopolis.jp/entry"
   },
   {
    "id": "1785b75270e4",
