@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13T10:42:38+09:00",
- "today": "2026-11-13",
+ "generated_at": "2026-11-14T10:18:50+09:00",
+ "today": "2026-11-14",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -4657,7 +4657,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 6,
+   "remain": 7,
    "price": 3300,
    "source": "ms-event"
   },
@@ -17067,11 +17067,11 @@
    "source": "ms-event"
   },
   {
-   "id": "fafac919ca7c",
+   "id": "dd9f029ea787",
    "venue": "hsr",
    "course": "dream",
    "date": "2027-01-17",
-   "title": "クルマでEnjoy新春感謝",
+   "title": "クルマでEnjoy新春感謝デー",
    "kind": "event",
    "vehicle": "car",
    "source": "ms-event"
@@ -17141,13 +17141,14 @@
    "source": "ms-event"
   },
   {
-   "id": "4059c1ece01a",
+   "id": "d787a349f79e",
    "venue": "hsr",
    "course": "dream",
    "date": "2027-01-30",
-   "title": "クルマでEnjoy-Training",
-   "kind": "school",
-   "vehicle": "car",
+   "title": "貸切",
+   "kind": "private",
+   "start": "13:00",
+   "end": "17:00",
    "source": "ms-event"
   },
   {
