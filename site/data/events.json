@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T09:48:34+09:00",
- "today": "2026-11-15",
+ "generated_at": "2026-11-16T09:47:54+09:00",
+ "today": "2026-11-16",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -161,7 +161,7 @@
    "url": "https://autopolis.jp/spa/member/sports-run/course-schedule/",
    "ok": true,
    "count": 795,
-   "note": "11月(11/4更新)、12月(11/4更新)、1月(11/4更新)"
+   "note": "11月(11/15更新)、12月(11/15更新)、1月(11/15更新)"
   },
   {
    "venue": "spa",
@@ -169,8 +169,8 @@
    "label": "林道コーススケジュール",
    "url": "https://autopolis.jp/spa/member/sports-run/rindoucourse-schedule/",
    "ok": true,
-   "count": 62,
-   "note": "11月(11/4更新)、9月(9/19更新)、10月(10/3更新)"
+   "count": 67,
+   "note": "11月(11/15更新)、12月(11/15更新)、1月(11/15更新)"
   },
   {
    "venue": "spa",
@@ -651,39 +651,6 @@
    "approx": true
   },
   {
-   "id": "101ee59b829e",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-16",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "418b9c9d2b48",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-17",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "dfca7611f5d6",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-18",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
    "id": "fd0646a5c940",
    "venue": "spa",
    "course": "onroad",
@@ -717,48 +684,6 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "bd9c1f2caed7",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-21",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "4d82a90b04f7",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-23",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "46126b3cbdca",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-24",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "e1c15a2e5b7f",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-25",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
    "id": "c5252073c8cf",
    "venue": "ap",
    "course": "racing",
@@ -768,81 +693,6 @@
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
    "source": "pdf",
    "approx": true
-  },
-  {
-   "id": "02356e52be22",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-26",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "ea0337bdd51d",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-27",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "5635c22eaa1f",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-28",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "92efc2b63ac2",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-09-30",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "0ce940d823b1",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-01",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "5f63cba91596",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-02",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "fd002dcd75e1",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-03",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
   },
   {
    "id": "5f6906be9153",
@@ -858,130 +708,6 @@
    "approx": true
   },
   {
-   "id": "9ad98f00cf09",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-05",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "997f071bf37c",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-06",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "9e242111b942",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-07",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "e5a61413112d",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-08",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "ea1d961276f4",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-09",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "a4b4cd31c083",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-10",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "35e38938a39e",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-11",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "a12e76546410",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-12",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "aa2b87281107",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-13",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "276447b9161a",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-14",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "192adbbdfc09",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-15",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "6ac65632bd99",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-16",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
    "id": "ee337cc8a71d",
    "venue": "ap",
    "course": "racing",
@@ -992,79 +718,6 @@
    "note": "併催レース：FIA-F418日",
    "source": "pdf",
    "approx": true
-  },
-  {
-   "id": "9e8c05a0fdb9",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-17",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "7f19d3e3bee7",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-18",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "862bcb90e111",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-19",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "a2c59dcd84e9",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-20",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "31593c31f57b",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-21",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "ddcbc6f2ba84",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-22",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "1802bdff5da9",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-23",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
   },
   {
    "id": "1bb6435f2dfe",
@@ -1091,24 +744,6 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "c6ff744cdbb8",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-26",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "204e9aeef853",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-27",
-   "title": "定休日",
-   "kind": "closed",
-   "source": "autopolis.jp/spa"
-  },
-  {
    "id": "ddcce65d9293",
    "venue": "spa",
    "course": "onroad",
@@ -1118,39 +753,6 @@
    "vehicle": "bike",
    "url": "https://autopolis.jp/spa/entry/bike/weekday-circuit-run-festa/",
    "source": "autopolis.jp/spa/calender"
-  },
-  {
-   "id": "8b746663c4dc",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-29",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "2ba74cb07216",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-30",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "b2e204438358",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-10-31",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
-   "source": "autopolis.jp/spa"
   },
   {
    "id": "4258b90c796b",
@@ -6689,6 +6291,16 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "a3109bd94fe6",
+   "venue": "hsr",
+   "course": "circuit",
+   "date": "2026-11-20",
+   "title": "鉄馬特別練習会",
+   "kind": "event",
+   "vehicle": "bike",
+   "source": "ms-event"
+  },
+  {
    "id": "a349b06c2b6c",
    "venue": "spa",
    "course": "onroad",
@@ -6939,18 +6551,6 @@
    "cls": "4F",
    "vehicle": "car",
    "source": "autopolis.jp"
-  },
-  {
-   "id": "6d1b9aec652c",
-   "venue": "hsr",
-   "course": "circuit",
-   "date": "2026-11-20",
-   "title": "鉄馬特別練習会",
-   "kind": "event",
-   "start": "13:00",
-   "end": "17:00",
-   "vehicle": "bike",
-   "source": "ms-event"
   },
   {
    "id": "d7d6c3743e87",
@@ -7263,12 +6863,13 @@
    "source": "ms-event"
   },
   {
-   "id": "b1fc2b613617",
+   "id": "1082c238c6a9",
    "venue": "spa",
    "course": "onroad",
    "date": "2026-11-21",
-   "title": "スーパーサンデー 2026 WINTER 特別スポーツ走行 ※タイムスケジュールは決定次第掲載いたします。",
+   "title": "スーパーサンデーフェスタ 2026 WINTER 特別スポーツ走行",
    "kind": "free",
+   "url": "https://autopolis.jp/spa/wp-content/uploads/2026/11/d4c0e263df45dbb3a7eaebac914ad5e5.pdf",
    "source": "autopolis.jp/spa"
   },
   {
@@ -8456,6 +8057,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "3124b63cc9ca",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-02",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "cfc566495b34",
    "venue": "spa",
    "course": "onroad",
@@ -8768,6 +8380,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "5ac8d821e875",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-03",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -9094,6 +8717,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "15b3bef71cdf",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-04",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -9454,6 +9088,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "6d77740b9385",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-05",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -10094,6 +9739,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "13fe44d74f9f",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-07",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "0c58c5af73f1",
    "venue": "ap",
    "course": "racing",
@@ -10256,6 +9910,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "81b66cc42699",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-08",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "0967498a3b01",
    "venue": "ap",
    "course": "racing",
@@ -10343,6 +10006,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "f83c1e989fd3",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-09",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -10644,6 +10318,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "444e1055bc0d",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-10",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "4db0d66c44af",
    "venue": "spa",
    "course": "onroad",
@@ -10930,6 +10615,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "e694a8a4a8ef",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-11",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -11279,6 +10975,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "adb5f0f22889",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-12",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "1f642f4e59c8",
    "venue": "spa",
    "course": "onroad",
@@ -11587,6 +11294,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "3db5f11fd59d",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-13",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -11950,6 +11668,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "5c2b10569f56",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-14",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "4dadf84b361c",
    "venue": "ap",
    "course": "racing",
@@ -11971,6 +11698,15 @@
    "id": "eb26e2c849e6",
    "venue": "spa",
    "course": "onroad",
+   "date": "2026-12-15",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "5fbeb8306cd8",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2026-12-15",
    "title": "定休日",
    "kind": "closed",
@@ -12013,6 +11749,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "443fffff4b41",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-16",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -12315,6 +12062,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "2485262eda72",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-17",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -12631,6 +12389,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "349bc64aef61",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-18",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "57fe5f9585bc",
    "venue": "spa",
    "course": "onroad",
@@ -12931,6 +12700,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "e32ee7fa0795",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-19",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -13669,6 +13449,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "c45589a9195b",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-21",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "71410614b63b",
    "venue": "ap",
    "course": "racing",
@@ -13863,6 +13652,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "a2cadd09fd14",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-22",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "55cb71cc5ea1",
    "venue": "spa",
    "course": "onroad",
@@ -13880,6 +13678,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "1099476ba2e2",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-23",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -14327,6 +14136,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "86612642b55b",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-24",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -14786,6 +14606,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "deb84c50b6b4",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-25",
+   "title": "コースクローズ",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "b6f06e15d785",
    "venue": "ap",
    "course": "racing",
@@ -14807,6 +14636,15 @@
    "id": "0c14146312e5",
    "venue": "spa",
    "course": "onroad",
+   "date": "2026-12-26",
+   "title": "年末休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "079ccf7a9e1d",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2026-12-26",
    "title": "年末休業",
    "kind": "closed",
@@ -14840,6 +14678,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "acbe09fdc1fa",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-27",
+   "title": "年末休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "fa87698a710f",
    "venue": "ap",
    "course": "racing",
@@ -14861,6 +14708,15 @@
    "id": "a2100ea8f060",
    "venue": "spa",
    "course": "onroad",
+   "date": "2026-12-28",
+   "title": "年末休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "247d2765f098",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2026-12-28",
    "title": "年末休業",
    "kind": "closed",
@@ -14894,6 +14750,15 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "b74cc1c26bc3",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-29",
+   "title": "年末休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "d6e482f79938",
    "venue": "ap",
    "course": "racing",
@@ -14915,6 +14780,15 @@
    "id": "fae38f33af10",
    "venue": "spa",
    "course": "onroad",
+   "date": "2026-12-30",
+   "title": "年末休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "a8d3b1f4d4d7",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2026-12-30",
    "title": "年末休業",
    "kind": "closed",
@@ -14948,9 +14822,27 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "d1ff94e51c3d",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2026-12-31",
+   "title": "年末休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "72b3a179a391",
    "venue": "spa",
    "course": "onroad",
+   "date": "2027-01-01",
+   "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "b66732f93359",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2027-01-01",
    "title": "年始休業",
    "kind": "closed",
@@ -14966,9 +14858,27 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "06a9a2647c5d",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-02",
+   "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "6d6aa7f4b2d2",
    "venue": "spa",
    "course": "onroad",
+   "date": "2027-01-03",
+   "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "92a0a4da2fd0",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2027-01-03",
    "title": "年始休業",
    "kind": "closed",
@@ -14984,9 +14894,27 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "7d8a7deeb541",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-04",
+   "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "405979c91828",
    "venue": "spa",
    "course": "onroad",
+   "date": "2027-01-05",
+   "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "7c8282047302",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2027-01-05",
    "title": "年始休業",
    "kind": "closed",
@@ -14998,6 +14926,24 @@
    "course": "onroad",
    "date": "2027-01-06",
    "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "46c267fb7e96",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-06",
+   "title": "年始休業",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "395cd0a18bc8",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-07",
+   "title": "コースメンテナンス",
    "kind": "closed",
    "source": "autopolis.jp/spa"
   },
@@ -15302,6 +15248,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "a1917720f1e6",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-08",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "13155662ea7c",
    "venue": "spa",
    "course": "onroad",
@@ -15588,6 +15545,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "4483128f6c80",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-09",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -15884,6 +15852,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "92fc99d4be2a",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-10",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "f0ca799c0911",
    "venue": "spa",
    "course": "onroad",
@@ -16177,6 +16156,17 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "1854c473b6dd",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-11",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "c51186f1e8ce",
    "venue": "spa",
    "course": "onroad",
@@ -16446,9 +16436,27 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "8e145578ed6a",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-12",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
    "id": "05397d4e9f6d",
    "venue": "spa",
    "course": "onroad",
+   "date": "2027-01-13",
+   "title": "定休日",
+   "kind": "closed",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "618afe93b906",
+   "venue": "spa",
+   "course": "offroad",
    "date": "2027-01-13",
    "title": "定休日",
    "kind": "closed",
@@ -16472,6 +16480,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "f1d4c9dde3f0",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-14",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -16752,6 +16771,17 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
+   "source": "autopolis.jp/spa"
+  },
+  {
+   "id": "9abdc07efd4b",
+   "venue": "spa",
+   "course": "offroad",
+   "date": "2027-01-15",
+   "title": "林道コース 予約可",
+   "kind": "open",
+   "url": "https://autopolis.jp/spa/member/offroad/",
+   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
