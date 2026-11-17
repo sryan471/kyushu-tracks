@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-16T09:47:54+09:00",
- "today": "2026-11-16",
+ "generated_at": "2026-11-17T12:26:22+09:00",
+ "today": "2026-11-17",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -205,7 +205,7 @@
    "label": "4輪走行会一覧",
    "url": "https://autopolis.jp/ap/entry/car/",
    "ok": true,
-   "count": 23,
+   "count": 22,
    "note": null
   },
   {
@@ -6930,7 +6930,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 8,
+   "remain": 7,
    "price": 3300,
    "source": "ms-event"
   },
@@ -16123,6 +16123,18 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "18c7bfdfcc24",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2027-01-11",
+   "title": "HOLIDAY CHALLENGE",
+   "kind": "event",
+   "vehicle": "car",
+   "url": "https://autopolis.jp/ap/entry/car/holiday-challenge/",
+   "note": "主催: オートポリス",
+   "source": "autopolis.jp/entry"
+  },
+  {
    "id": "ad5a917570ea",
    "venue": "hsr",
    "course": "dream",
@@ -17107,18 +17119,6 @@
    "source": "ms-event"
   },
   {
-   "id": "1179accfb6dd",
-   "venue": "ap",
-   "course": "lakeside",
-   "date": "2027-01-22",
-   "title": "HOLIDAY DRIVING SCHOOL",
-   "kind": "school",
-   "vehicle": "car",
-   "url": "https://autopolis.jp/ap/entry/car/holiday-driving_school/",
-   "note": "主催: オートポリス",
-   "source": "autopolis.jp/entry"
-  },
-  {
    "id": "25c3fd42e8b8",
    "venue": "hsr",
    "course": "dream",
@@ -17169,6 +17169,30 @@
    "remain": 10,
    "price": 3300,
    "source": "ms-event"
+  },
+  {
+   "id": "86d721f223e0",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2027-01-24",
+   "title": "HOLIDAY DRIVING SCHOOL",
+   "kind": "school",
+   "vehicle": "car",
+   "url": "https://autopolis.jp/ap/entry/car/holiday-driving_school/",
+   "note": "主催: オートポリス",
+   "source": "autopolis.jp/entry"
+  },
+  {
+   "id": "2f54c94148be",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2027-01-30",
+   "title": "HOLIDAY RUNRUN",
+   "kind": "event",
+   "vehicle": "car",
+   "url": "https://autopolis.jp/ap/entry/car/holiday-runrun/",
+   "note": "主催: オートポリス",
+   "source": "autopolis.jp/entry"
   },
   {
    "id": "d787a349f79e",
@@ -17244,18 +17268,6 @@
    "remain": 10,
    "price": 3300,
    "source": "ms-event"
-  },
-  {
-   "id": "2aa1380127ac",
-   "venue": "ap",
-   "course": "lakeside",
-   "date": "2027-03-08",
-   "title": "HOLIDAY DRIVING SCHOOL",
-   "kind": "school",
-   "vehicle": "car",
-   "url": "https://autopolis.jp/ap/entry/car/holiday-driving_school/",
-   "note": "主催: オートポリス",
-   "source": "autopolis.jp/entry"
   },
   {
    "id": "3bac3367863d",
