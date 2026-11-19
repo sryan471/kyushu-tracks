@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T11:44:55+09:00",
- "today": "2026-11-18",
+ "generated_at": "2026-11-19T11:18:20+09:00",
+ "today": "2026-11-19",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -6821,7 +6821,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 8,
+   "remain": 5,
    "price": 3300,
    "source": "ms-event"
   },
@@ -11508,7 +11508,7 @@
    "kind": "event",
    "start": "13:00",
    "end": "14:00",
-   "url": "https://zauberkraft-isa.com/",
+   "url": "https://zauberkraft-isa.com/2026/11/10/mikikoyama-driving-school-7-recr/",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
