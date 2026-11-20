@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T11:18:20+09:00",
- "today": "2026-11-19",
+ "generated_at": "2026-11-20T11:02:30+09:00",
+ "today": "2026-11-20",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -169,7 +169,7 @@
    "label": "林道コーススケジュール",
    "url": "https://autopolis.jp/spa/member/sports-run/rindoucourse-schedule/",
    "ok": true,
-   "count": 67,
+   "count": 66,
    "note": "11月(11/15更新)、12月(11/15更新)、1月(11/15更新)"
   },
   {
@@ -188,7 +188,7 @@
    "url": "https://autopolis.jp/ap/member/sports-run/racing-course-schedule/",
    "ok": true,
    "count": 240,
-   "note": "11月(2026-10-29更新)、12月(2026-11-12更新)、1月(調整中)"
+   "note": "11月(2026-10-29更新)、12月(2026-11-20更新)、1月(調整中)"
   },
   {
    "venue": "ap",
@@ -9102,6 +9102,19 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "4440da13ed9c",
+   "venue": "ap",
+   "course": "racing",
+   "date": "2026-12-05",
+   "title": "RTE",
+   "kind": "event",
+   "start": "09:00",
+   "end": "09:30",
+   "url": "https://8cup-rst.jimdofree.com/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E9%96%8B%E5%82%AC%E6%A1%88%E5%86%85/2026%E5%B9%B4/2026-12-5-%E3%82%A8%E3%82%A4%E3%83%88%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%83%E3%83%97inap-4th/",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "6b53f9739f8d",
    "venue": "hsr",
    "course": "circuit",
@@ -9170,19 +9183,6 @@
    "cls": "MQ",
    "vehicle": "bike",
    "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "5e98ca245803",
-   "venue": "ap",
-   "course": "racing",
-   "date": "2026-12-05",
-   "title": "RTE",
-   "kind": "event",
-   "start": "10:00",
-   "end": "10:30",
-   "url": "https://8cup-rst.jimdofree.com/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E9%96%8B%E5%82%AC%E6%A1%88%E5%86%85/2026%E5%B9%B4/2026-12-5-%E3%82%A8%E3%82%A4%E3%83%88%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%83%E3%83%97inap-4th/",
-   "note": "ゲートオープン 06:00",
-   "source": "autopolis.jp"
   },
   {
    "id": "828bde02b2c1",
@@ -11749,17 +11749,6 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "443fffff4b41",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-12-16",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
