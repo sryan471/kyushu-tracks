@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T11:02:30+09:00",
- "today": "2026-11-20",
+ "generated_at": "2026-11-21T10:59:14+09:00",
+ "today": "2026-11-21",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -169,8 +169,8 @@
    "label": "林道コーススケジュール",
    "url": "https://autopolis.jp/spa/member/sports-run/rindoucourse-schedule/",
    "ok": true,
-   "count": 66,
-   "note": "11月(11/15更新)、12月(11/15更新)、1月(11/15更新)"
+   "count": 64,
+   "note": "11月(11/20更新)、12月(11/20更新)、1月(11/20更新)"
   },
   {
    "venue": "spa",
@@ -205,7 +205,7 @@
    "label": "4輪走行会一覧",
    "url": "https://autopolis.jp/ap/entry/car/",
    "ok": true,
-   "count": 22,
+   "count": 21,
    "note": null
   },
   {
@@ -6821,7 +6821,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 5,
+   "remain": 4,
    "price": 3300,
    "source": "ms-event"
   },
@@ -6930,7 +6930,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 7,
+   "remain": 8,
    "price": 3300,
    "source": "ms-event"
   },
@@ -7031,17 +7031,6 @@
    "title": "体験走行 可",
    "kind": "trial",
    "url": "https://autopolis.jp/spa/entry/trial-run/",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "90eded288c3d",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-11-23",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
@@ -7486,17 +7475,6 @@
    "date": "2026-11-26",
    "title": "貸切",
    "kind": "private",
-   "source": "autopolis.jp/spa"
-  },
-  {
-   "id": "3d6b00f43750",
-   "venue": "spa",
-   "course": "offroad",
-   "date": "2026-11-27",
-   "title": "林道コース 予約可",
-   "kind": "open",
-   "url": "https://autopolis.jp/spa/member/offroad/",
-   "note": "9:00～17:00（12:00～13:00昼休み）",
    "source": "autopolis.jp/spa"
   },
   {
