@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T10:25:43+09:00",
- "today": "2026-11-23",
+ "generated_at": "2026-11-24T14:09:20+09:00",
+ "today": "2026-11-24",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -205,7 +205,7 @@
    "label": "4輪走行会一覧",
    "url": "https://autopolis.jp/ap/entry/car/",
    "ok": true,
-   "count": 21,
+   "count": 19,
    "note": null
   },
   {
