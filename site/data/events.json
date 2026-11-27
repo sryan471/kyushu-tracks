@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T12:23:52+09:00",
- "today": "2026-11-26",
+ "generated_at": "2026-11-27T11:38:05+09:00",
+ "today": "2026-11-27",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -280,7 +280,7 @@
    "title": "ゴールドカップレース第1戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500第1戦 /VITA第1戦 / 併催レース：TGR86/BRZcup第1戦 /TGRYariscup第1戦/第2戦 / 併催イベント：AUTOPOLIS86/BRZSTYLE2026",
+   "note": "開催レース：スーパーFJ/FJ1500第1戦/VITA第1戦 / 併催レース：TGR86/BRZcup第1戦/TGRYariscup第1戦/第2戦 / 併催イベント：AUTOPOLIS86/BRZSTYLE2026",
    "source": "pdf",
    "approx": true
   },
@@ -342,11 +342,11 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "35f2559225dc",
+   "id": "783fcdcd94a1",
    "venue": "ap",
    "course": "racing",
    "date": "2026-04-25",
-   "title": "全日本 SUPERFORMULA選手権 第3戦",
+   "title": "全日本SUPERFORMULA選手権第3戦",
    "kind": "race",
    "vehicle": "car",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
@@ -374,7 +374,7 @@
    "kind": "race",
    "vehicle": "bike",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催クラス：JSB1000/ST1000/ST600/JP250 / 併催レース：NinjaTeamGreenCup/ONE&TWOフェスティバル 春の大会",
+   "note": "開催クラス：JSB1000/ST1000/ST600/JP250 / 併催レース：NinjaTeamGreenCup/ONE&TWOフェスティバル春の大会",
    "source": "pdf",
    "approx": true
   },
@@ -475,7 +475,7 @@
    "title": "ゴールドカップレース第2戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500第2戦 /VITA第2戦 /AP86/BRZ第1戦 /BBS15001時間耐久レース / 併催レース：サーキットトライアル",
+   "note": "開催レース：スーパーFJ/FJ1500第2戦/VITA第2戦/AP86/BRZ第1戦/BBS15001時間耐久レース / 併催レース：サーキットトライアル",
    "source": "pdf",
    "approx": true
   },
@@ -578,7 +578,7 @@
    "title": "ゴールドカップレース第3戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500第3戦 /VITA第3戦 /AP86/BRZ第2戦 /BBS1500第1戦 / 併催レース：FormulaBeat",
+   "note": "開催レース：スーパーFJ/FJ1500第3戦/VITA第3戦/AP86/BRZ第2戦/BBS1500第1戦 / 併催レース：FormulaBeat",
    "source": "pdf",
    "approx": true
   },
@@ -646,7 +646,7 @@
    "title": "ゴールドカップレース第4戦",
    "kind": "race",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催レース：スーパーFJ/FJ1500第4戦 /VITA第4戦 /AP86/BRZ第3戦 /BBS1500第2戦 / 併催レース：ロードスター・パーティーレースⅢ ジャパンツアーシリーズ",
+   "note": "開催レース：スーパーFJ/FJ1500第4戦/VITA第4戦/AP86/BRZ第3戦/BBS1500第2戦 / 併催レース：ロードスター・パーティーレースⅢジャパンツアーシリーズ",
    "source": "pdf",
    "approx": true
   },
@@ -684,11 +684,11 @@
    "source": "autopolis.jp/spa/calender"
   },
   {
-   "id": "c5252073c8cf",
+   "id": "b26daa14a5e1",
    "venue": "ap",
    "course": "racing",
    "date": "2026-09-26",
-   "title": "天空 deHANABI",
+   "title": "天空deHANABI",
    "kind": "event",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
    "source": "pdf",
@@ -703,7 +703,7 @@
    "kind": "race",
    "vehicle": "bike",
    "url": "https://autopolis.jp/ap/wp-content/uploads/2025/12/2026AUTOPOLISschedule.pdf",
-   "note": "開催クラス：JSB1000/ST1000/ST600/JP250 / 併催レース：ONE&TWOフェスティバル 秋の大会",
+   "note": "開催クラス：JSB1000/ST1000/ST600/JP250 / 併催レース：ONE&TWOフェスティバル秋の大会",
    "source": "pdf",
    "approx": true
   },
@@ -9856,7 +9856,7 @@
    "kind": "school",
    "start": "16:00",
    "end": "17:00",
-   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "url": "https://www1.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
@@ -11595,7 +11595,7 @@
    "kind": "school",
    "start": "16:00",
    "end": "17:00",
-   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "url": "https://www1.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
@@ -13290,7 +13290,7 @@
    "kind": "school",
    "start": "16:00",
    "end": "17:00",
-   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "url": "https://www1.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
@@ -13607,7 +13607,7 @@
    "kind": "event",
    "start": "16:00",
    "end": "17:00",
-   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "url": "https://www1.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
@@ -14062,7 +14062,7 @@
    "kind": "event",
    "start": "16:00",
    "end": "17:00",
-   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "url": "https://www1.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
@@ -14520,7 +14520,7 @@
    "kind": "event",
    "start": "16:00",
    "end": "17:00",
-   "url": "https://www.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
+   "url": "https://www1.ms-event.net/apweb/user/?a=timesc.timesc_list&sel_course=pit",
    "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
