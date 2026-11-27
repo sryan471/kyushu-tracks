@@ -19,3 +19,6 @@ source table. Key facts that are not obvious from the code:
   titles stay in Japanese; only scraper-generated structural titles are translated via `TITLE_EN`.
 - Deployed as a GitHub Pages *project* site of sryan471, so it is served at ninja471.com/kyushu-tracks/
   (the user site's custom domain) — no copy into the sryan471.github.io repo is needed.
+- Weather comes from Open-Meteo, fetched by the browser (no key, 1h localStorage cache) for the next 7 days;
+  coordinates/elevation per venue are `VENUE_GEO` in `site/app.js`. The JMA model was tried and rejected
+  because it returns no precipitation probability. Footer credit (CC BY 4.0) is required.

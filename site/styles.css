@@ -196,3 +196,23 @@ button { font: inherit; color: inherit; }
   .header-row { flex-direction: column-reverse; }
   .lang-switch { margin-top: 0; }
 }
+
+/* weather (Open-Meteo) */
+.wx { display: inline-flex; gap: 7px; align-items: baseline; font-family: var(--mono); font-size: 11.5px; color: var(--text-2); white-space: nowrap; }
+.wx .g { font-size: 14px; color: var(--text); }
+.wx .tt { color: var(--text); }
+.wx .pp { color: var(--text-3); }
+.wx.damp .pp { color: var(--race); }
+.wx.wet .pp { color: var(--sun); font-weight: 500; }
+.wx.wet .g { color: var(--sun); }
+.wx .wd { color: var(--race); }
+.wx.far { opacity: .62; }
+.venue-card .vh .wx { margin-left: auto; }
+.cell .celltop { display: flex; justify-content: space-between; align-items: baseline; gap: 4px; }
+.cell .wxrow { display: inline-flex; gap: 5px; }
+.cell .wxrow .wx { gap: 2px; font-size: 10px; }
+.cell .wxrow .wx .g { font-size: 12px; }
+@media (max-width: 860px) {
+  .venue-card .vh { flex-wrap: wrap; gap: 4px 8px; }
+  .cell .wxrow .wx .pp { display: none; }
+}

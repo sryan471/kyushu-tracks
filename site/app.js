@@ -21,7 +21,8 @@
       generated: (s) => `データ取得: ${s} JST — 毎朝自動更新`,
       monthLabel: (y, m) => `${y}年${m}月`,
       weekdays: ["日", "月", "火", "水", "木", "金", "土"],
-      titlesNote: "",
+      wxCredit: "天気: Open-Meteo.com（CC BY 4.0）。降水確率と風速は走行時間帯 9〜17時の最大値、気温は日最高/最低。5日目以降は精度が下がります。",
+      wxRain: "降水確率(9–17時)", wxWind: "最大風速(9–17時)", wxFar: "※5日以上先の予報は変わりやすい",
     },
     en: {
       title: "Kyushu Track Day Calendar",
@@ -37,7 +38,8 @@
       generated: (s) => `Data fetched ${s} JST — refreshed every morning`,
       monthLabel: (y, m) => `${MONTHS_EN[m - 1]} ${y}`,
       weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-      titlesNote: "",
+      wxCredit: "Weather: Open-Meteo.com (CC BY 4.0). Rain chance and wind are the maximum over 09:00–17:00 track hours; temperatures are the daily high/low. Confidence drops from day 5.",
+      wxRain: "Rain chance (09–17h)", wxWind: "Max wind (09–17h)", wxFar: "Forecasts 5+ days out change often",
     },
   };
   const MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -88,6 +90,102 @@
     [/^年間表彰式$/, "Annual awards ceremony"],
     [/^特別スポーツ走行$/, "Special sports run"],
   ];
+  // ---------- weather (Open-Meteo, fetched client-side) ----------
+  // HSR: coordinates from the circuit's own access-page map link; SPA / AP: OpenStreetMap circuit outlines.
+  // Explicit elevation keeps the model on the plateau rather than the valley grid cell.
+  const VENUE_GEO = {
+    hsr: { lat: 32.877, lon: 130.860 },
+    spa: { lat: 33.1017, lon: 131.409, elev: 460 },
+    ap: { lat: 33.0381, lon: 130.9747, elev: 800 },
+  };
+  const WX_KEY = "kyushu-tracks:wx:";
+  const WX_DAYS = 7;          // days ahead to show
+  const WX_TRACK = [9, 17];   // track hours used for rain chance / wind
+  const WX_CODES = [
+    [[0], "☀︎", "快晴", "Clear"],
+    [[1], "☀︎", "晴", "Mostly clear"],
+    [[2], "⛅︎", "晴時々曇", "Partly cloudy"],
+    [[3], "☁︎", "曇", "Overcast"],
+    [[45, 48], "▒", "霧", "Fog"],
+    [[51, 53, 55, 56, 57], "☂︎", "霧雨", "Drizzle"],
+    [[61, 63, 65, 66, 67], "☔︎", "雨", "Rain"],
+    [[71, 73, 75, 77, 85, 86], "❄︎", "雪", "Snow"],
+    [[80, 81, 82], "☂︎", "にわか雨", "Showers"],
+    [[95, 96, 99], "⛈︎", "雷雨", "Thunderstorm"],
+  ];
+  const WX = {}; // venue -> { iso: {code, tmax, tmin, pp, ppTrack, wind, codeTrack} }
+
+  function wxInfo(code) {
+    const row = WX_CODES.find((r) => r[0].includes(code)) || WX_CODES[3];
+    return { glyph: row[1], label: state.lang === "en" ? row[3] : row[2] };
+  }
+
+  async function loadWeather() {
+    await Promise.all(VENUE_ORDER.map(async (v) => {
+      const g = VENUE_GEO[v];
+      try {
+        const cached = JSON.parse(localStorage.getItem(WX_KEY + v) || "null");
+        if (cached && Date.now() - cached.t < 3600e3 && cached.d) { WX[v] = cached.d; return; }
+      } catch (_) { /* ignore */ }
+      try {
+        const p = new URLSearchParams({
+          latitude: g.lat, longitude: g.lon, timezone: "Asia/Tokyo", forecast_days: String(WX_DAYS + 1), wind_speed_unit: "ms",
+          daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max",
+          hourly: "precipitation_probability,wind_speed_10m,weather_code",
+        });
+        if (g.elev) p.set("elevation", String(g.elev));
+        const res = await fetch("https://api.open-meteo.com/v1/forecast?" + p.toString());
+        if (!res.ok) throw new Error(res.status);
+        const j = await res.json();
+        const days = {};
+        j.daily.time.forEach((d, i) => {
+          days[d] = { code: j.daily.weather_code[i], tmax: j.daily.temperature_2m_max[i], tmin: j.daily.temperature_2m_min[i],
+                      pp: j.daily.precipitation_probability_max[i], ppTrack: null, wind: null, codeTrack: null };
+        });
+        j.hourly.time.forEach((t, i) => {
+          const d = t.slice(0, 10), h = Number(t.slice(11, 13));
+          const x = days[d];
+          if (!x || h < WX_TRACK[0] || h > WX_TRACK[1]) return;
+          const pp = j.hourly.precipitation_probability[i], w = j.hourly.wind_speed_10m[i], c = j.hourly.weather_code[i];
+          if (pp != null) x.ppTrack = Math.max(x.ppTrack ?? 0, pp);
+          if (w != null) x.wind = Math.max(x.wind ?? 0, w);
+          if (c != null) x.codeTrack = Math.max(x.codeTrack ?? 0, c);
+        });
+        WX[v] = days;
+        try { localStorage.setItem(WX_KEY + v, JSON.stringify({ t: Date.now(), d: days })); } catch (_) { /* ignore */ }
+      } catch (_) { /* weather is optional; leave the card without it */ }
+    }));
+  }
+
+  function wxFor(v, iso) {
+    const d = WX[v]?.[iso];
+    if (!d || iso < todayISO || iso > addDays(todayISO, WX_DAYS - 1)) return null;
+    return d;
+  }
+
+  /** Compact weather line for a venue card: glyph, label, high/low, rain chance in track hours, wind if notable. */
+  function renderWx(v, iso, compact = false) {
+    const d = wxFor(v, iso);
+    if (!d) return null;
+    const code = d.codeTrack ?? d.code;
+    const info = wxInfo(code);
+    const pp = d.ppTrack ?? d.pp;
+    const daysAhead = Math.round((isoToDate(iso) - isoToDate(todayISO)) / 864e5);
+    const box = el("span", "wx" + (pp >= 60 ? " wet" : pp >= 30 ? " damp" : "") + (daysAhead >= 5 ? " far" : ""));
+    box.appendChild(el("span", "g", info.glyph));
+    if (!compact) {
+      box.appendChild(el("span", "l", info.label));
+      box.appendChild(el("span", "tt", `${Math.round(d.tmax)}°/${Math.round(d.tmin)}°`));
+    }
+    if (pp != null) box.appendChild(el("span", "pp", `☂︎${pp}%`));
+    if (!compact && d.wind != null && d.wind >= 7) box.appendChild(el("span", "wd", (state.lang === "en" ? "wind " : "風") + `${Math.round(d.wind)}m/s`));
+    const t = T();
+    box.title = `${venueName(v)} ${iso}\n${info.label} ${Math.round(d.tmax)}°/${Math.round(d.tmin)}°\n`
+      + `${t.wxRain} ${pp ?? "–"}%` + (d.wind != null ? `  ${t.wxWind} ${Math.round(d.wind)} m/s` : "")
+      + (daysAhead >= 5 ? `\n${t.wxFar}` : "") + "\nOpen-Meteo.com";
+    return box;
+  }
+
   const SOURCE_EN = [
     [/走行スケジュール/, "run schedule"], [/コーススケジュール/, "course schedule"], [/オンロード/, "on-road "], [/林道/, "forest "],
     [/年間カレンダー/, "annual calendar"], [/イベントスケジュール/, "event schedule"], [/年間スケジュール/, "annual schedule"],
@@ -388,6 +486,8 @@
     const head = el("div", "vh");
     head.appendChild(el("span", "vname", venueName(v)));
     card.appendChild(head);
+    const wx = renderWx(v, iso);
+    if (wx) head.appendChild(wx);
 
     if (!events.length) {
       card.classList.add("none");
@@ -519,7 +619,16 @@
       const cell = el("div", "cell" + (wd === 0 ? " sun" : wd === 6 ? " sat" : ""));
       if (iso < todayISO) cell.classList.add("past");
       if (iso === todayISO) cell.classList.add("today");
-      cell.appendChild(el("div", "n", String(d)));
+      const top = el("div", "celltop");
+      top.appendChild(el("span", "n", String(d)));
+      const wxrow = el("span", "wxrow");
+      for (const v of VENUE_ORDER) {
+        if (!state.venues.has(v)) continue;
+        const w = renderWx(v, iso, true);
+        if (w) wxrow.appendChild(w);
+      }
+      if (wxrow.childNodes.length) top.appendChild(wxrow);
+      cell.appendChild(top);
       const events = eventsOn(iso);
       for (const v of VENUE_ORDER) {
         if (!state.venues.has(v)) continue;
@@ -606,10 +715,12 @@
 
   // ---------- boot ----------
   loadState();
+  const weatherReady = loadWeather();
   load().then(() => {
     applyLanguage();
     renderStatic();
     update();
+    weatherReady.then(() => renderView());
   }).catch((err) => {
     $("#view").textContent = "Failed to load data / データを読み込めませんでした: " + err;
   });
