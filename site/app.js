@@ -114,7 +114,7 @@
     [[80, 81, 82], "☂︎", "にわか雨", "Showers", "rain"],
     [[95, 96, 99], "⛈︎", "雷雨", "Thunderstorm", "storm"],
   ];
-  // Rain-chance bands: ≤10% green (good to go), 35–64% light blue, ≥65% dark blue, otherwise neutral.
+  // Rain-chance pills: ≤10% white, 11–34% grey, 35–64% light blue, ≥65% dark blue.
   const ppBand = (pp) => (pp == null ? "" : pp <= 10 ? "pp-go" : pp >= 65 ? "pp-high" : pp >= 35 ? "pp-mid" : "pp-low");
   const WX = {}; // venue -> { iso: {code, tmax, tmin, pp, ppTrack, wind, codeTrack} }
 

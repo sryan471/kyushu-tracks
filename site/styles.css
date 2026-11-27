@@ -207,10 +207,11 @@ button { font: inherit; color: inherit; }
 .wx .g.g-snow { color: #ffffff; }
 .wx .g.g-storm { color: var(--race); }
 .wx .tt { color: var(--text); }
-.wx .pp { color: var(--text-3); border-radius: 4px; padding: 0 4px; }
-.wx .pp.pp-go { color: #6fcf97; }
-.wx .pp.pp-mid { color: #0c1a2b; background: #8fd0ff; font-weight: 500; }
-.wx .pp.pp-high { color: #e3efff; background: #1f4fb8; font-weight: 500; }
+.wx .pp { border-radius: 4px; padding: 0 4px; font-weight: 500; }
+.wx .pp.pp-go { color: #0c0e11; background: #f2f0ea; }
+.wx .pp.pp-low { color: #e8e6df; background: #4a4f58; }
+.wx .pp.pp-mid { color: #0c1a2b; background: #8fd0ff; }
+.wx .pp.pp-high { color: #e3efff; background: #1f4fb8; }
 .wx .wd { color: var(--race); }
 .wx.far { opacity: .62; }
 .venue-card .vh .wx { margin-left: auto; }
