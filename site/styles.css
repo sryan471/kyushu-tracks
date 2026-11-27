@@ -200,11 +200,17 @@ button { font: inherit; color: inherit; }
 /* weather (Open-Meteo) */
 .wx { display: inline-flex; gap: 7px; align-items: baseline; font-family: var(--mono); font-size: 11.5px; color: var(--text-2); white-space: nowrap; }
 .wx .g { font-size: 14px; color: var(--text); }
+.wx .g.g-sun { color: #ffd84d; }
+.wx .g.g-part { color: #f3d98b; }
+.wx .g.g-cloud { color: var(--text-2); }
+.wx .g.g-rain { color: #7cc4ff; }
+.wx .g.g-snow { color: #ffffff; }
+.wx .g.g-storm { color: var(--race); }
 .wx .tt { color: var(--text); }
-.wx .pp { color: var(--text-3); }
-.wx.damp .pp { color: var(--race); }
-.wx.wet .pp { color: var(--sun); font-weight: 500; }
-.wx.wet .g { color: var(--sun); }
+.wx .pp { color: var(--text-3); border-radius: 4px; padding: 0 4px; }
+.wx .pp.pp-go { color: #6fcf97; }
+.wx .pp.pp-mid { color: #0c1a2b; background: #8fd0ff; font-weight: 500; }
+.wx .pp.pp-high { color: #e3efff; background: #1f4fb8; font-weight: 500; }
 .wx .wd { color: var(--race); }
 .wx.far { opacity: .62; }
 .venue-card .vh .wx { margin-left: auto; }

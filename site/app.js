@@ -101,23 +101,26 @@
   const WX_KEY = "kyushu-tracks:wx:";
   const WX_DAYS = 7;          // days ahead to show
   const WX_TRACK = [9, 17];   // track hours used for rain chance / wind
+  // [codes, glyph, ja, en, css class for the glyph colour]
   const WX_CODES = [
-    [[0], "☀︎", "快晴", "Clear"],
-    [[1], "☀︎", "晴", "Mostly clear"],
-    [[2], "⛅︎", "晴時々曇", "Partly cloudy"],
-    [[3], "☁︎", "曇", "Overcast"],
-    [[45, 48], "▒", "霧", "Fog"],
-    [[51, 53, 55, 56, 57], "☂︎", "霧雨", "Drizzle"],
-    [[61, 63, 65, 66, 67], "☔︎", "雨", "Rain"],
-    [[71, 73, 75, 77, 85, 86], "❄︎", "雪", "Snow"],
-    [[80, 81, 82], "☂︎", "にわか雨", "Showers"],
-    [[95, 96, 99], "⛈︎", "雷雨", "Thunderstorm"],
+    [[0], "☀︎", "快晴", "Clear", "sun"],
+    [[1], "☀︎", "晴", "Mostly clear", "sun"],
+    [[2], "⛅︎", "晴時々曇", "Partly cloudy", "part"],
+    [[3], "☁︎", "曇", "Overcast", "cloud"],
+    [[45, 48], "▒", "霧", "Fog", "cloud"],
+    [[51, 53, 55, 56, 57], "☂︎", "霧雨", "Drizzle", "rain"],
+    [[61, 63, 65, 66, 67], "☔︎", "雨", "Rain", "rain"],
+    [[71, 73, 75, 77, 85, 86], "❄︎", "雪", "Snow", "snow"],
+    [[80, 81, 82], "☂︎", "にわか雨", "Showers", "rain"],
+    [[95, 96, 99], "⛈︎", "雷雨", "Thunderstorm", "storm"],
   ];
+  // Rain-chance bands: ≤10% green (good to go), 35–64% light blue, ≥65% dark blue, otherwise neutral.
+  const ppBand = (pp) => (pp == null ? "" : pp <= 10 ? "pp-go" : pp >= 65 ? "pp-high" : pp >= 35 ? "pp-mid" : "pp-low");
   const WX = {}; // venue -> { iso: {code, tmax, tmin, pp, ppTrack, wind, codeTrack} }
 
   function wxInfo(code) {
     const row = WX_CODES.find((r) => r[0].includes(code)) || WX_CODES[3];
-    return { glyph: row[1], label: state.lang === "en" ? row[3] : row[2] };
+    return { glyph: row[1], label: state.lang === "en" ? row[3] : row[2], cls: row[4] };
   }
 
   async function loadWeather() {
@@ -171,13 +174,13 @@
     const info = wxInfo(code);
     const pp = d.ppTrack ?? d.pp;
     const daysAhead = Math.round((isoToDate(iso) - isoToDate(todayISO)) / 864e5);
-    const box = el("span", "wx" + (pp >= 60 ? " wet" : pp >= 30 ? " damp" : "") + (daysAhead >= 5 ? " far" : ""));
-    box.appendChild(el("span", "g", info.glyph));
+    const box = el("span", "wx" + (daysAhead >= 5 ? " far" : ""));
+    box.appendChild(el("span", `g g-${info.cls}`, info.glyph));
     if (!compact) {
       box.appendChild(el("span", "l", info.label));
       box.appendChild(el("span", "tt", `${Math.round(d.tmax)}°/${Math.round(d.tmin)}°`));
     }
-    if (pp != null) box.appendChild(el("span", "pp", `☂︎${pp}%`));
+    if (pp != null) box.appendChild(el("span", `pp ${ppBand(pp)}`, `☂︎${pp}%`));
     if (!compact && d.wind != null && d.wind >= 7) box.appendChild(el("span", "wd", (state.lang === "en" ? "wind " : "風") + `${Math.round(d.wind)}m/s`));
     const t = T();
     box.title = `${venueName(v)} ${iso}\n${info.label} ${Math.round(d.tmax)}°/${Math.round(d.tmin)}°\n`
