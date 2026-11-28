@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T12:30:32+09:00",
- "today": "2026-11-27",
+ "generated_at": "2026-11-28T12:06:28+09:00",
+ "today": "2026-11-28",
  "venues": {
   "hsr": {
    "name": "HSR九州",
@@ -197,7 +197,7 @@
    "url": "https://autopolis.jp/ap/member/sports-run/lakeside-course-schedule/",
    "ok": true,
    "count": 61,
-   "note": "11月(2026-10-16更新)、12月(2026-11-12更新)、1月(調整中)"
+   "note": "11月(2026-10-16更新)、12月(2026-11-28更新)、1月(調整中)"
   },
   {
    "venue": "ap",
@@ -7544,7 +7544,7 @@
    "kind": "free",
    "cls": "ミニバイク(半日)",
    "vehicle": "bike",
-   "remain": 9,
+   "remain": 8,
    "price": 3300,
    "source": "ms-event"
   },
@@ -8072,15 +8072,15 @@
    "source": "autopolis.jp/spa"
   },
   {
-   "id": "8d4fcbef60f2",
+   "id": "9f1d7f421195",
    "venue": "ap",
    "course": "lakeside",
    "date": "2026-12-02",
-   "title": "貸切予約 受付中（7日前まで）",
-   "kind": "open",
+   "title": "11:00-15:00 貸切",
+   "kind": "private",
    "start": "10:00",
    "end": "17:00",
-   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
+   "note": "ゲートオープン 06:00",
    "source": "autopolis.jp"
   },
   {
@@ -11358,6 +11358,18 @@
    "source": "autopolis.jp/spa"
   },
   {
+   "id": "431445b0a326",
+   "venue": "ap",
+   "course": "lakeside",
+   "date": "2026-12-13",
+   "title": "14:00-15:00 貸切",
+   "kind": "private",
+   "start": "10:00",
+   "end": "17:00",
+   "note": "ゲートオープン 06:00",
+   "source": "autopolis.jp"
+  },
+  {
    "id": "39c33c3f4331",
    "venue": "ap",
    "course": "racing",
@@ -11368,18 +11380,6 @@
    "end": "10:30",
    "cls": "4F",
    "vehicle": "car",
-   "source": "autopolis.jp"
-  },
-  {
-   "id": "7b03ed14e602",
-   "venue": "ap",
-   "course": "lakeside",
-   "date": "2026-12-13",
-   "title": "貸切予約 受付中（7日前まで）",
-   "kind": "open",
-   "start": "10:00",
-   "end": "17:00",
-   "url": "https://autopolis.jp/ap/facility/course-map/lake-side-course/",
    "source": "autopolis.jp"
   },
   {
